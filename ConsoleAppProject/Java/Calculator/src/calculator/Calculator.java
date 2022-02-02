@@ -8,15 +8,24 @@ package calculator;
  *
  * @author 100173524
  */
-public class Calculator {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-        System.out.println("Hello");
-
+public class Calculator 
+{
+    String name;
+    
+    public int add(int x, int y) {
+        return x + y;
+    }
+    public int subtract(int x, int y) {
+        return x - y;
+    }
+    public int multipy(int x, int y) {
+        return x * y;
+    }
+    public int divide(int x, int y) {
+        return x / y;
+    }
+    public int modulus(int x, int y) {
+        return x % y;
     }
     
 }
